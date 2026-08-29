@@ -1,5 +1,5 @@
 # bist_algo_tracker
-# 🚀 BIST-AlgoTracker (v2/v3)
+# 🚀 BIST-AlgoTracker (v1/v2)
 **Enterprise-Grade Quantitative Trading & Anomaly Detection Terminal for Borsa Istanbul (BIST)**
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
