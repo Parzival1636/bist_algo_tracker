@@ -54,3 +54,19 @@ The easiest way to spin up the entire microservices stack (FastAPI, React, NATS,
 git clone [https://github.com/YOUR_USERNAME/bist_algo_tracker.git](https://github.com/YOUR_USERNAME/bist_algo_tracker.git)
 cd bist_algo_tracker
 docker compose up --build
+
+##   Option 2: Manual Setup (Local Development)
+### 1. Start the Backend (API)
+
+cd bist_algo_tracker
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+cp .env.example .env
+python -m uvicorn api.main_fastapi:app --reload
+
+### 2. Start the Frontend (React Terminal)
+
+cd dashboard-react
+npm install
+npm run dev
